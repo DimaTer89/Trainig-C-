@@ -79,3 +79,15 @@ void main() {
 	if(mInd<0) cout << " Сумма элементов массива = " << sum(ptr, minInd, N)<<endl;
 	system("pause");
 }
+==============================================
+	int fisNeg(int mas[], int n) {
+	int tmp = 0;
+	for (int i=0;i<n;i++) {
+		if (mas[i] < 0) {
+			tmp = mas[i];
+			break;
+		}
+		;
+	}
+	return tmp;
+}
